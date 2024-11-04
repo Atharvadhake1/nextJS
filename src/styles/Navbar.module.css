@@ -1,0 +1,64 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #E6FFDA;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00A86B; /* Change color to match the Brevo branding */
+  }
+  
+  .subtext {
+    font-size: 0.75rem;
+    color: #666;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .login {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .signUp {
+    background-color: #00A86B;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .demo {
+    border: 1px solid #00A86B;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #00A86B;
+  }
+  

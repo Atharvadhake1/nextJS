@@ -1,0 +1,46 @@
+/* styles/Hero.module.css */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #E6FFDA;
+  }
+  
+  .textContainer {
+    max-width: 50%;
+  }
+  
+  .textContainer h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .textContainer p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  .ctaButton {
+    background-color: #00A86B;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .imageContainer {
+    max-width: 45%;
+  }
+  
+  .heroImage {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
